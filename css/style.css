@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  .content {
+  
+    padding: 10px;
+    margin-left:15%;
+    margin-right:15%;
+  }
+   footer{
+  margin-top: 1%;
+     color:#b5985a;
+     padding: 10px;
+     border-radius: 15px;
+     text-align: center;
+   }
+
+
+  
+  .row{
+  color: #b5985a;
+  }
+  .sm{
+    background: #3B5998;
+    color: white;
+    background-color: #b5985a;
+  }
+  div#fm p {
+    display:inline;
+    width: 1px;
+  }
+ 
+  
+  #fm a img{
+    width: 30px;
+    height: 30px;
+    background-color: #DEF0FF;
+    border: 1px solid #7f53ac;
+    -webkit-transition: background-color 0.8s ease-in;
+    transition: background-color 0.8s ease-in;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            align-items: center;
+  }
+
+
+  
+  .carousel-inner{
+     border-radius: 15px;
+  }
+  .card{
+    color:#b5985a;
+  }
+  .rc{
+    border:3px solid;
+    border-radius: 15px;
+    background-color: #b5985a;
+    color: white;
+  }
+  .data{
+    padding: 15px;
+  }
+  video{
+      padding: 15px;
+      border-radius: 15px;
+  }
+  .carousel-caption {
+      color:rgb(7, 179, 253);
+      
+  }
+
+
+
+
+  * { -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+    .buttons { margin: -2%; text-align:right;}
+    .btn-hover { width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;}
+    .btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;}
+    .btn-hover:focus { outline: none;}
+    .btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);}
